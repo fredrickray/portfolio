@@ -63,7 +63,7 @@ const About = () => {
 
       <motion.div variants={textVariant()} className="text-white">
         <a href="https://docs.google.com/document/d/1AI2_WUmKGnhcyDuqt-hYMgENJVgFscm2XRUNFLF3csE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-          <h2 className={`${styles.heroSubText} cursor-pointer`} style={{ marginTop: "5%" }}>View Resumé <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></h2>
+          <h2 className={`${styles.heroSubText} cursor-pointer`} style={{ marginTop: "5%" }}>View Resumé <svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Icon/Button-arrow" transform="translate(-5.000000, -5.000000)"><g id="arrow-group-right-link" transform="translate(6.000000, 6.000000)"><circle id="Oval" stroke="#EFE3E3" cx="18" cy="18" r="18"></circle><g id="Group-2" transform="translate(11.000000, 13.000000)" stroke="#EFE3E3" stroke-width="2"><polyline id="Path-2" stroke-linecap="square" points="8 0 13 5 8 10"></polyline><path d="M0,5 L13,5" id="Path-3"></path></g></g></g></g></svg></h2>
         </a>
       </motion.div>
 
