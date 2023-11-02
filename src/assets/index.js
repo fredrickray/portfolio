@@ -14,6 +14,8 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.png"
+import postgresql from "./tech/postgresql.png"
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
@@ -22,13 +24,22 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import hng from "./company/hng.png"
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import nupat from "./company/nupat.png"
+import piem from "./company/piem.png"
+import piem2 from "./company/piem2.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import shopease from "./shopease.png"
+import paynexus from "./pay-nexus-home.png"
+import paynexus_login from "./pay nexus.png"
+import aniben from "./aniben.png"
+import falcon from "./falcon.png"
 
 export {
   logo,
@@ -47,16 +58,27 @@ export {
   javascript,
   mongodb,
   nodejs,
+  mysql,
+  postgresql,
   reactjs,
   redux,
   tailwind,
   typescript,
   threejs,
+  hng,
   meta,
   shopify,
   starbucks,
+  nupat,
   tesla,
+  piem,
+  piem2,
   carrent,
   jobit,
   tripguide,
+  shopease,
+  paynexus,
+  paynexus_login,
+  aniben,
+  falcon
 };

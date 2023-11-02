@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -47,12 +48,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am Fredrick Anyanwu, i'm on quest to enhance my
+        professional skills, capabilities and knowledge in
+        an organisation which recognises the value of hard
+        work and trusts him with responsibilities and challenges.
+        I specialises in the front-end with expertise in Html, CSS,
+        Javascript, React, and On the back-end, I thrive in the world
+        of Node.js and databases. I have a solid grasp of database design
+        and management, with experience in both MySQL and PostgreSQL. Knex.js
+        is my go-to when it comes to working with databases. I'm skilled in building
+        RESTful APIs, ensuring data flows smoothly between the client and the server.
+        Let's work together to bring your ideas to life!
       </motion.p>
+
+      <motion.div variants={textVariant()} className="text-white">
+        <a href="https://docs.google.com/document/d/1AI2_WUmKGnhcyDuqt-hYMgENJVgFscm2XRUNFLF3csE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <h2 className={`${styles.heroSubText} cursor-pointer`} style={{ marginTop: "5%" }}>View Resumé <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></h2>
+        </a>
+      </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
